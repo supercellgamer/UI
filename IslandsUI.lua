@@ -213,7 +213,7 @@ do
 	
 	function library.new(title)
 		local container = utility:Create("ScreenGui", {
-			Name = title,
+			Name = "IslandsGui",
 			Parent = game.CoreGui
 		}, {
 			utility:Create("ImageLabel", {
